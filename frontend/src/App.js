@@ -119,7 +119,7 @@ class App extends React.Component{
           <Modal.Body>
             <Form>
               <Form.Group controlId="formName">
-                <Form.Label>Name</Form.Label>
+                <Form.Label>Name:</Form.Label>
                 <Form.Control onChange={this.handleChange} name="name" type="text" placeholder="Your Name Here" />
               </Form.Group>
 
@@ -129,7 +129,7 @@ class App extends React.Component{
               </Form.Group>
 
               <Form.Group controlId="formPhone">
-                <Form.Label>Phone</Form.Label>
+                <Form.Label>Phone:</Form.Label>
                 <Form.Control onChange={this.handleChange} name="phone" type="text" placeholder="Your Phone Number Here" />
               </Form.Group>
             </Form>
