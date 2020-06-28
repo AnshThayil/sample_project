@@ -1,7 +1,7 @@
 # sample_project
 A sample project built with Django and Create React App
 
-##Submission Notes
+## Submission Notes
 Some notes about how create user is implemented:
 - I rewrote some parts of the backend using the `djangorestframework` library. It can be installed using `pip install djangorestframework`.
 - I also added some node packages and rewrote the frontend with Bootstrap to help with my implementation. Namely,
