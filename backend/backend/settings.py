@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     "corsheaders",
+    "rest_framework",
     "users.apps.UsersConfig",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -51,6 +52,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+
 
 ROOT_URLCONF = "backend.urls"
 
@@ -117,4 +119,3 @@ USE_TZ = True
 STATIC_URL = "/static/"
 
 CORS_ORIGIN_ALLOW_ALL = True
-
