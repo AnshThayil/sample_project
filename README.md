@@ -1,6 +1,13 @@
 # sample_project
 A sample project built with Django and Create React App
 
+##Submission Notes
+Some notes about how create user is implemented:
+- I rewrote some parts of the backend using the `djangorestframework` library. It can be installed using `pip install djangorestframework`.
+- I also added some node packages and rewrote the frontend with Bootstrap to help with my implementation. Namely,
+  - `axios` to help with making GET and POST requests.
+  - `bootstrap` and `react-bootstrap` to help design the interface.
+
 ## Instructions
 Clone this repository and implement these features:
 - a `/users/add` api route in the **backend** to add a user to the database
@@ -12,6 +19,6 @@ The features you do implement must use the [git feature branch model](https://ww
 
 ## Submission
 
-Once the features are implemented, push your cloned repository to your github page and email us the link. 
+Once the features are implemented, push your cloned repository to your github page and email us the link.
 
 Please email digitalhealth@uvic.ca with the subject 'Dev Sample Project - Your Name' if you have any additional questions.
